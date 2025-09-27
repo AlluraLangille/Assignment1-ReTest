@@ -1,4 +1,5 @@
 import { Router } from 'express';
+
 import LegendsController from '../controllers/legendsController';
 
 const router = Router();
