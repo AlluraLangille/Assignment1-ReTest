@@ -1,0 +1,6 @@
+type: web
+name: urban-legends-api
+env: node
+buildCommand: npm install && npm run build
+startCommand: npm start
+rootDir: assignment-1-prompt-engineering-AlluraLangille/urban-legends-api

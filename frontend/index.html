@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Legends Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Urban Legends Manager</h1>
+        <section id="add-legend-section">
+            <h2>Add New Legend</h2>
+            <form id="add-legend-form">
+                <input type="text" id="add-title" placeholder="Title" required />
+                <input type="text" id="add-origin" placeholder="Origin" required />
+                <textarea id="add-description" placeholder="Description" required></textarea>
+                <button type="submit">Add Legend</button>
+            </form>
+        </section>
+        <section id="legend-list-section">
+            <h2>All Legends</h2>
+            <ul id="legend-list"></ul>
+        </section>
+        <!-- The edit legend form will be dynamically inserted below the legend being edited -->
+        <div id="message"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
